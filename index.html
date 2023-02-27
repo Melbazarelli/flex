@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="style
+sheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex e grid</title>
+</head>
+<body>
+<header class="main-header">
+    <h1>Menu de <span>Pizzas</span></h1>
+    <p> Confira abaixo nossos sabores mais vendidos.</p>
+</header>
+
+<main class="container">
+    <section class="card">
+        <img src="https://cdn.pixabay.com/photo/2014/07/08/12/34/pizza-386717_960_720.jpg" alt="">
+        <div>
+            <h3>Pizza Portuguesa</h3>
+            <p> Mussarela, calabresa, presunto, cebola refogada, pimentões, ovo picado, azeitonas pretas e orégano.</p>
+            <a href="#" class="btn">Compre Agora</a>
+        </div>
+    </section>
+
+    <section class="card" data-aos="fade-left">
+        <img src="https://cdn.pixabay.com/photo/2016/04/21/22/50/pizza-1344720_960_720.jpg" alt="">
+        <div>
+            <h3>Pizza Calabresa</h3>
+            <p> Mussarela, calabresa e orégano.</p>
+            <a href="#" class="btn">Compre Agora</a>
+        </div>
+    </section>
+
+    <section class="card" data-aos="fade-right">
+        <img src="https://cdn.pixabay.com/photo/2020/04/04/09/59/pizza-5001588_960_720.jpg" alt="">
+        <div>
+            <h3>Pizza Marguerita</h3>
+            <p> Mussarela, tomates em rodelas, manjericão e orégano.</p>
+            <a href="#" class="btn">Compre Agora</a>
+        </div>
+    </section>
+</main>
+
+<div class="galeria">
+    <div style="background-image: url('https://cdn.pixabay.com/photo/2020/06/17/21/46/pizza-5311269_960_720.jpg');"></div>
+    <div style="background-image: url('https://cdn.pixabay.com/photo/2014/02/06/09/03/city-259794_960_720.jpg');"></div>
+    <div style="background-image: url('https://cdn.pixabay.com/photo/2018/03/04/20/05/pizza-3199081_960_720.jpg');"></div>
+
+</div>
+
+<script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
